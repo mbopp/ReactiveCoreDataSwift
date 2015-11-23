@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63F0EA551C03A4FD00DBAA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0EA541C03A4FD00DBAA1A /* AppDelegate.swift */; };
+		63F0EA571C03A4FD00DBAA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0EA561C03A4FD00DBAA1A /* ViewController.swift */; };
+		63F0EA5A1C03A4FD00DBAA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F0EA581C03A4FD00DBAA1A /* Main.storyboard */; };
+		63F0EA5D1C03A4FD00DBAA1A /* AlphaProcessCheck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63F0EA5B1C03A4FD00DBAA1A /* AlphaProcessCheck.xcdatamodeld */; };
+		63F0EA5F1C03A4FD00DBAA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F0EA5E1C03A4FD00DBAA1A /* Assets.xcassets */; };
+		63F0EA621C03A4FD00DBAA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F0EA601C03A4FD00DBAA1A /* LaunchScreen.storyboard */; };
+		63F0EA6D1C03A4FD00DBAA1A /* AlphaProcessCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0EA6C1C03A4FD00DBAA1A /* AlphaProcessCheckTests.swift */; };
+		63F0EA781C03A4FD00DBAA1A /* AlphaProcessCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0EA771C03A4FD00DBAA1A /* AlphaProcessCheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63F0EA691C03A4FD00DBAA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F0EA491C03A4FD00DBAA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F0EA501C03A4FD00DBAA1A;
+			remoteInfo = AlphaProcessCheck;
+		};
+		63F0EA741C03A4FD00DBAA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63F0EA491C03A4FD00DBAA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F0EA501C03A4FD00DBAA1A;
+			remoteInfo = AlphaProcessCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63F0EA511C03A4FD00DBAA1A /* AlphaProcessCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaProcessCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F0EA541C03A4FD00DBAA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63F0EA561C03A4FD00DBAA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63F0EA591C03A4FD00DBAA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63F0EA5C1C03A4FD00DBAA1A /* AlphaProcessCheck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlphaProcessCheck.xcdatamodel; sourceTree = "<group>"; };
+		63F0EA5E1C03A4FD00DBAA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63F0EA611C03A4FD00DBAA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63F0EA631C03A4FD00DBAA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F0EA681C03A4FD00DBAA1A /* AlphaProcessCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaProcessCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F0EA6C1C03A4FD00DBAA1A /* AlphaProcessCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaProcessCheckTests.swift; sourceTree = "<group>"; };
+		63F0EA6E1C03A4FD00DBAA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F0EA731C03A4FD00DBAA1A /* AlphaProcessCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaProcessCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F0EA771C03A4FD00DBAA1A /* AlphaProcessCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaProcessCheckUITests.swift; sourceTree = "<group>"; };
+		63F0EA791C03A4FD00DBAA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63F0EA4E1C03A4FD00DBAA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0EA651C03A4FD00DBAA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0EA701C03A4FD00DBAA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F0EA481C03A4FD00DBAA1A = {
+			isa = PBXGroup;
+			children = (
+				63F0EA531C03A4FD00DBAA1A /* AlphaProcessCheck */,
+				63F0EA6B1C03A4FD00DBAA1A /* AlphaProcessCheckTests */,
+				63F0EA761C03A4FD00DBAA1A /* AlphaProcessCheckUITests */,
+				63F0EA521C03A4FD00DBAA1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63F0EA521C03A4FD00DBAA1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63F0EA511C03A4FD00DBAA1A /* AlphaProcessCheck.app */,
+				63F0EA681C03A4FD00DBAA1A /* AlphaProcessCheckTests.xctest */,
+				63F0EA731C03A4FD00DBAA1A /* AlphaProcessCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63F0EA531C03A4FD00DBAA1A /* AlphaProcessCheck */ = {
+			isa = PBXGroup;
+			children = (
+				63F0EA541C03A4FD00DBAA1A /* AppDelegate.swift */,
+				63F0EA561C03A4FD00DBAA1A /* ViewController.swift */,
+				63F0EA581C03A4FD00DBAA1A /* Main.storyboard */,
+				63F0EA5E1C03A4FD00DBAA1A /* Assets.xcassets */,
+				63F0EA601C03A4FD00DBAA1A /* LaunchScreen.storyboard */,
+				63F0EA631C03A4FD00DBAA1A /* Info.plist */,
+				63F0EA5B1C03A4FD00DBAA1A /* AlphaProcessCheck.xcdatamodeld */,
+			);
+			path = AlphaProcessCheck;
+			sourceTree = "<group>";
+		};
+		63F0EA6B1C03A4FD00DBAA1A /* AlphaProcessCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				63F0EA6C1C03A4FD00DBAA1A /* AlphaProcessCheckTests.swift */,
+				63F0EA6E1C03A4FD00DBAA1A /* Info.plist */,
+			);
+			path = AlphaProcessCheckTests;
+			sourceTree = "<group>";
+		};
+		63F0EA761C03A4FD00DBAA1A /* AlphaProcessCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63F0EA771C03A4FD00DBAA1A /* AlphaProcessCheckUITests.swift */,
+				63F0EA791C03A4FD00DBAA1A /* Info.plist */,
+			);
+			path = AlphaProcessCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63F0EA501C03A4FD00DBAA1A /* AlphaProcessCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F0EA7C1C03A4FD00DBAA1A /* Build configuration list for PBXNativeTarget "AlphaProcessCheck" */;
+			buildPhases = (
+				63F0EA4D1C03A4FD00DBAA1A /* Sources */,
+				63F0EA4E1C03A4FD00DBAA1A /* Frameworks */,
+				63F0EA4F1C03A4FD00DBAA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphaProcessCheck;
+			productName = AlphaProcessCheck;
+			productReference = 63F0EA511C03A4FD00DBAA1A /* AlphaProcessCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63F0EA671C03A4FD00DBAA1A /* AlphaProcessCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F0EA7F1C03A4FD00DBAA1A /* Build configuration list for PBXNativeTarget "AlphaProcessCheckTests" */;
+			buildPhases = (
+				63F0EA641C03A4FD00DBAA1A /* Sources */,
+				63F0EA651C03A4FD00DBAA1A /* Frameworks */,
+				63F0EA661C03A4FD00DBAA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F0EA6A1C03A4FD00DBAA1A /* PBXTargetDependency */,
+			);
+			name = AlphaProcessCheckTests;
+			productName = AlphaProcessCheckTests;
+			productReference = 63F0EA681C03A4FD00DBAA1A /* AlphaProcessCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63F0EA721C03A4FD00DBAA1A /* AlphaProcessCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F0EA821C03A4FD00DBAA1A /* Build configuration list for PBXNativeTarget "AlphaProcessCheckUITests" */;
+			buildPhases = (
+				63F0EA6F1C03A4FD00DBAA1A /* Sources */,
+				63F0EA701C03A4FD00DBAA1A /* Frameworks */,
+				63F0EA711C03A4FD00DBAA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F0EA751C03A4FD00DBAA1A /* PBXTargetDependency */,
+			);
+			name = AlphaProcessCheckUITests;
+			productName = AlphaProcessCheckUITests;
+			productReference = 63F0EA731C03A4FD00DBAA1A /* AlphaProcessCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63F0EA491C03A4FD00DBAA1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Rapid Development Group";
+				TargetAttributes = {
+					63F0EA501C03A4FD00DBAA1A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					63F0EA671C03A4FD00DBAA1A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 63F0EA501C03A4FD00DBAA1A;
+					};
+					63F0EA721C03A4FD00DBAA1A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 63F0EA501C03A4FD00DBAA1A;
+					};
+				};
+			};
+			buildConfigurationList = 63F0EA4C1C03A4FD00DBAA1A /* Build configuration list for PBXProject "AlphaProcessCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63F0EA481C03A4FD00DBAA1A;
+			productRefGroup = 63F0EA521C03A4FD00DBAA1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63F0EA501C03A4FD00DBAA1A /* AlphaProcessCheck */,
+				63F0EA671C03A4FD00DBAA1A /* AlphaProcessCheckTests */,
+				63F0EA721C03A4FD00DBAA1A /* AlphaProcessCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63F0EA4F1C03A4FD00DBAA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0EA621C03A4FD00DBAA1A /* LaunchScreen.storyboard in Resources */,
+				63F0EA5F1C03A4FD00DBAA1A /* Assets.xcassets in Resources */,
+				63F0EA5A1C03A4FD00DBAA1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0EA661C03A4FD00DBAA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0EA711C03A4FD00DBAA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63F0EA4D1C03A4FD00DBAA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0EA571C03A4FD00DBAA1A /* ViewController.swift in Sources */,
+				63F0EA5D1C03A4FD00DBAA1A /* AlphaProcessCheck.xcdatamodeld in Sources */,
+				63F0EA551C03A4FD00DBAA1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0EA641C03A4FD00DBAA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0EA6D1C03A4FD00DBAA1A /* AlphaProcessCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F0EA6F1C03A4FD00DBAA1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F0EA781C03A4FD00DBAA1A /* AlphaProcessCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63F0EA6A1C03A4FD00DBAA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F0EA501C03A4FD00DBAA1A /* AlphaProcessCheck */;
+			targetProxy = 63F0EA691C03A4FD00DBAA1A /* PBXContainerItemProxy */;
+		};
+		63F0EA751C03A4FD00DBAA1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63F0EA501C03A4FD00DBAA1A /* AlphaProcessCheck */;
+			targetProxy = 63F0EA741C03A4FD00DBAA1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63F0EA581C03A4FD00DBAA1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F0EA591C03A4FD00DBAA1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63F0EA601C03A4FD00DBAA1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63F0EA611C03A4FD00DBAA1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63F0EA7A1C03A4FD00DBAA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		63F0EA7B1C03A4FD00DBAA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63F0EA7D1C03A4FD00DBAA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlphaProcessCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rapiddg.AlphaProcessCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63F0EA7E1C03A4FD00DBAA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlphaProcessCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rapiddg.AlphaProcessCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63F0EA801C03A4FD00DBAA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlphaProcessCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rapiddg.AlphaProcessCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaProcessCheck.app/AlphaProcessCheck";
+			};
+			name = Debug;
+		};
+		63F0EA811C03A4FD00DBAA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlphaProcessCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rapiddg.AlphaProcessCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlphaProcessCheck.app/AlphaProcessCheck";
+			};
+			name = Release;
+		};
+		63F0EA831C03A4FD00DBAA1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlphaProcessCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rapiddg.AlphaProcessCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlphaProcessCheck;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		63F0EA841C03A4FD00DBAA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AlphaProcessCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rapiddg.AlphaProcessCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlphaProcessCheck;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63F0EA4C1C03A4FD00DBAA1A /* Build configuration list for PBXProject "AlphaProcessCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F0EA7A1C03A4FD00DBAA1A /* Debug */,
+				63F0EA7B1C03A4FD00DBAA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F0EA7C1C03A4FD00DBAA1A /* Build configuration list for PBXNativeTarget "AlphaProcessCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F0EA7D1C03A4FD00DBAA1A /* Debug */,
+				63F0EA7E1C03A4FD00DBAA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63F0EA7F1C03A4FD00DBAA1A /* Build configuration list for PBXNativeTarget "AlphaProcessCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F0EA801C03A4FD00DBAA1A /* Debug */,
+				63F0EA811C03A4FD00DBAA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63F0EA821C03A4FD00DBAA1A /* Build configuration list for PBXNativeTarget "AlphaProcessCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F0EA831C03A4FD00DBAA1A /* Debug */,
+				63F0EA841C03A4FD00DBAA1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63F0EA5B1C03A4FD00DBAA1A /* AlphaProcessCheck.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63F0EA5C1C03A4FD00DBAA1A /* AlphaProcessCheck.xcdatamodel */,
+			);
+			currentVersion = 63F0EA5C1C03A4FD00DBAA1A /* AlphaProcessCheck.xcdatamodel */;
+			path = AlphaProcessCheck.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63F0EA491C03A4FD00DBAA1A /* Project object */;
+}
