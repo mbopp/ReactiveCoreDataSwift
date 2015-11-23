@@ -1,0 +1,5 @@
+Pods
+Carthage
+Podfile.lock
+Cartfile.resolved
+*.xcworkspace
