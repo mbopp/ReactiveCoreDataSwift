@@ -13,8 +13,8 @@ import SwiftyJSON
 class PersistentClient: NSObject {
 
   lazy var stack : CoreDataStack = CoreDataStack(
-    modelName:"ConstructionHelicopters",
-    storeName:"ConstructionHelicopters",
+    modelName:"AlphaProcessCheck",
+    storeName:"AlphaProcessCheck",
     options:[
       NSMigratePersistentStoresAutomaticallyOption: true,
       NSInferMappingModelAutomaticallyOption: true
